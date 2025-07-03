@@ -1,3 +1,6 @@
 Bootstrap
 for predefined styles go to https://getbootstrap.com/
-copy the link from Include via CDN
+copy the <link> and <script> tag from Include via CDN
+paste <link> in head and <script> in body 
+and in that website in docs-->there are many elements you can copy paste it.
+
