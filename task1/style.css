@@ -1,0 +1,86 @@
+body{
+    
+    margin: 25px 50px 115px 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top:30px;
+    padding-top:30px;    
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+    margin-left:20px;
+    box-shadow: 0 0 0 60px rgb(239, 161, 161);
+    position: fixed;
+    
+
+    
+}
+#best_selling_courses{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top:120px;
+    margin-left:-12px;
+    border-right:20px;
+    
+}
+h1{
+    text-align:center;
+}
+.course img{
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.course h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+.course{
+    border-radius:20px;
+    border: 1px solid rgb(167, 156, 156);
+    margin-bottom:20px;
+    box-shadow: 2px 2px 25px gray;
+}
+.course div{
+    padding:20px;
+}
+.course p{
+    text-align:center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .course{
+        width:80%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {    
+    .course{
+        width:80%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        .course{
+        width:40%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+        .course{
+        width:20%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+        .course{
+        width:20%;
+    }
+}
